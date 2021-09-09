@@ -9,7 +9,6 @@ for a in char:
   if a.islower():
     lp.append('011')
     a = ord(a)-96
-    print(a)
   elif a.isupper():
     lp.append('010')
     a = a.lower()
